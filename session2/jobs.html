@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>JavaJam House jobs</title>
+    </head>
+    <body>
+        <h1>JavaJam Coffee House</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="music.html">Music</a>
+            <a href="jobs.html">Jobs</a>
+        </nav>
+        <main>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam?Fill out the form belowto start your application.Required fields are marked with an asterisk(*).</p>
+            <form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+                <label for="names">*Name</label><br>
+                <input type="text" id="names" name="names"><br>
+                <label for="e_mail">*Email</label><br>
+                <input type="email" id="e_mail" name="e_mail"><br>
+                <label for="exp">*Experience</label><br>
+                <textarea id="exp" name="exp"></textarea><br>
+                <label for="jowb">Select job position</label><br>
+                <select id="jowb" name="jowb"></select><br>
+                <label for="dates">Preferred Interview Data and Time</label>
+                <input type="datetime" id="dates" name="dates"><br>
+                <label for="files">Upload your photo</label>
+                <input type="file" id="files" name="files"><br>
+                <button>Apply Now</button>
+            </form>
+        </main>
+        <footer>
+            <p style="font-size: small;"><i>Copyright &#169; 2021 JavaJam Coffee House</i></p>
+            yourfirstname@yourlastname
+        </footer>
+    </body>
+</html>
