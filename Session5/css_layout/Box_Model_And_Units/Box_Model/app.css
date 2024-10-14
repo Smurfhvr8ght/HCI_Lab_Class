@@ -1,0 +1,22 @@
+/* Removes the default margin for the entire <body> to eliminate any spacing around the edges of the page */
+body  {margin: 0;}
+/* Sets a fixed width and height of 200px for all <div> elements */
+div   {width: 200px; height: 200px;}
+/* Adds a left margin of 30px and a top margin of 30px for all <span> elements */
+span  {margin-left: 30px; margin-top: 30px;}
+/* Styles the <h1> element with a pink background, sets its width to 200px, and adds 100px left padding and 50px top padding.
+   The margin is set to 0 to remove any spacing around the <h1> element */
+h1    {background-color: pink; width: 200px; padding-left: 100px; padding-top: 50px; margin: 0;}
+/* Styles the element with id "one" with a soft pink background color (#e5989b), 
+   adds a solid black border of 5px width, and sets a 50px left margin and a 100px bottom margin for spacing. 
+   The box-sizing property is commented out, but if enabled, it would ensure the padding and border are included within the width and height */
+#one  {background-color: #e5989b; border: 5px solid black; margin-left: 50px; margin-bottom: 100px;}
+/* Styles the element with id "two" with a warm brownish-pink background color (#b5838d), 
+   adds a dashed border with 3px width, a lighter color (#ffcdb2), and a thicker left border of 8px.
+   Includes 50px right padding and 200px margin on all sides for spacing */
+#two  {background-color: #b5838d; border: 3px dashed #ffcdb2; border-left: 8px dashed #ffcdb2; padding-right: 50px; margin: 200px;}
+/* Styles the element with id "three" with a dark purple background (#6d6875), 
+   a 4px solid black border with a dotted left border, and gives it a circular shape using 50% border-radius */
+#three{background-color: #6d6875; border: 4px solid black; border-left:dotted; border-radius: 50%;}
+/* Sets padding of 10px for the top, 20px for the right, 30px for the bottom, and 40px for the left of all <button> elements */
+button{padding: 10px, 20px, 30px, 40px;}
