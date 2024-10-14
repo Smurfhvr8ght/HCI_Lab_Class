@@ -1,0 +1,55 @@
+/* Sets the base font size for the entire HTML document to 30px */
+html  {font-size: 30px;}
+/* Styles the element with id "percentages" with a background color of #6d6875 (a muted purple),
+   and a width and height of 800px */
+#percentages   {
+   background-color: #6d6875;
+   width: 800px;
+}
+/* Styles all <div> elements inside the element with id "percentages" with a lighter pinkish background color (#e5989b),
+   sets the width to 70% of the parent element's width, and height to 20% of its parent element's height */
+#percentages div   {
+   background-color: #e5989b;
+   width: 70%;
+   height: 20%;
+}
+/* Sets specific font sizes and margins for the <h2>, <h3>, and <p> elements inside the element with id "ems".
+   The margin-left for <h2> adds a space on the left, while other elements follow specific relative font sizes */
+#ems h2  {
+   font-size: 2em;
+   margin-left: 1em;
+}
+#ems h3  {
+   font-size: 1.5em;
+}
+#ems p   {
+   font-size: 1em;
+}
+/* Defines a default font size of 15px for all content inside the element with id "ems" */
+#ems  {
+   font-size: 15px;
+}
+/* Sets the font size for unordered list elements (<ul>) inside the element with id "ems" to 1.5em, 
+   which scales relative to the default font size */
+#ems ul  {
+   font-size: 1.5em;
+}
+/* Styles all <button> elements with a font size of 1em, 1em padding on the left and right, 
+   0.5em border radius for rounded corners, and a greenish background (#2a9d8f) with white text */
+button   {
+   font-size: 1em;
+   padding-left: 1em;
+   padding-right: 1em;
+   border-radius: 0.5em;
+   background: #2a9d8f;
+   color: white;
+}
+/* Styles <h2>, <h3>, and <ul> elements inside the element with id "rems" with larger font sizes defined in rem units, 
+   which scale based on the root font size */
+#rems h2,h3,ul {
+   font-size: larger;
+}
+/* Sets a larger font size of 1.5rem for all <button> elements inside the element with id "rems" */
+#rems button   {
+   font-size: larger 1.5rem;
+}
