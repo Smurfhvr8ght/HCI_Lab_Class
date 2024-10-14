@@ -32,6 +32,7 @@ nav {
      - Displays list items inline and resets their margin and padding to 0.
 */
 ul,li {
+  display: inline;
   margin: 0;
   padding: 0;
 }
@@ -58,7 +59,7 @@ ul  {
   7. Default Color for <h1>:
      - Sets the default color of <h1> elements to red.
 */
-
+h1  {color: red;}
 /* 
   8. Media Queries for <h1> Color:
      - Changes the color of <h1> based on minimum viewport widths.
