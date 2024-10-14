@@ -1,0 +1,10 @@
+/* Styles all <span> elements with a pale violet-red background, a 1px solid black border, 
+   a width of 500px, 50px of padding for inside spacing, and 50px margin for outside spacing */
+span     {background: palevioletred; border: 1px solid black; width: 500px; padding: 50px; margin: 50px;}
+/* Styles all <h1> elements with a pale turquoise background, a 1px solid black border, 
+   a width of 300px, 50px padding for inside spacing, and a 100px margin to create outside spacing */
+h1       {background: paleturquoise; border: 1px solid black; width: 300px; padding: 50px; margin: 100px;}
+/* Styles all <div> elements with a fixed height and width of 200px, 
+   olivedrab background color, a thick 5px solid black border, and inline-block display to align elements horizontally.
+   Adds a 50px margin around each <div> for outside spacing */
+div      {height: 200px; width: 200px; background-color: olivedrab; border: 5px solid black; display: inline-block; margin: 50px;}
