@@ -1,0 +1,7 @@
+/* Centers the text of all <h1> elements, sets the font weight to 400 (normal), and applies a wavy underline with a #f78120 (orange) color.
+   Adds a 15px letter spacing for wide character spacing, sets the font size to 80px, and uses a monospace font family. 
+   (The Segoe UI, Futura, Arial font-family is commented out as an alternative option) */
+
+/* Removes the default underline from all <a> (anchor/link) elements */
+
+/* Sets the line height of all <p> elements to 2, which increases the space between lines of text */
