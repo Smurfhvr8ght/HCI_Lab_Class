@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        function additem() {
+            let input = document.getElementById("text").value;
+            if (input === "") {
+                console.log("Textbox is empty, pls fill it in.");
+                return;
+            };
+            let item = document.createElement("li");
+            item.textContent = input;
+            document.getElementByID("list").append(item);
+        }
+    </script>
+</head>
+<body>
+    <form action="javascript:void(0);" onsubmit="addItem();">
+        <input type="text" id="input">
+        <button id="adding">Add</button>
+    </form>
+    <ul id="list">
+    </ul>
+</body>
+</html>
