@@ -4,20 +4,22 @@
     <meta charset="utf-8">
     <script>
         function additem() {
-            let input = document.getElementById("text").value;
-            if (input === "") {
+            try{
+                let input = document.getElementById("inpute").value;
+                let item = document.createElement("li");
+                item.textContent = input;
+                document.getElementByID("list").append(item);
+            }
+            catch{
                 console.log("Textbox is empty, pls fill it in.");
-                return;
+                return
             };
-            let item = document.createElement("li");
-            item.textContent = input;
-            document.getElementByID("list").append(item);
         }
     </script>
 </head>
 <body>
-    <form action="javascript:void(0);" onsubmit="addItem();">
-        <input type="text" id="input">
+    <form action="javascript:void(0);" onsubmit="additem();">
+        <input type="text" id="inpute" placeholder="input text">
         <button id="adding">Add</button>
     </form>
     <ul id="list">
